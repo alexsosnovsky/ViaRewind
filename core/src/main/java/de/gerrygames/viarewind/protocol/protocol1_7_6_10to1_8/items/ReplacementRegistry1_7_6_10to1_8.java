@@ -28,6 +28,9 @@ public class ReplacementRegistry1_7_6_10to1_8 {
 		registry.registerBlock(182, 0, new Replacement(44, 1));
 		registry.registerBlock(182, 8, new Replacement(44, 9));
 
+		// Spawner => Black Glass (fixes 1.7 horse spawner crash)
+		registry.registerBlock(52, new Replacement(95,15));
+
 		registry.registerItem(425, new Replacement(323, "Banner"));
 		registry.registerItem(409, new Replacement(406, "Prismarine Shard"));
 		registry.registerItem(410, new Replacement(406, "Prismarine Crystal"));
